@@ -6,5 +6,5 @@ In this code I used machine learning to create a model that classified real wafe
 
 This dataset came without any features that could contribute to the classification of the wafer maps. Therefore, I used the skimage measure and morphology classes to add features to the maps, such as salient region and outer ring yield. This allowed me to successfully classify each wafer map and predict wafer maps.
 
-## Final Results
+### Final Results
 I created an overall accuracy and per class accuracy functions to identify which classes were incorrectly classified. Using these functions and confusion matrices, I further tweaked my model so that the accuracy improved. 
